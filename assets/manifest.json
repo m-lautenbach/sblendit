@@ -1,0 +1,31 @@
+{
+  "short_name": "GmTD",
+  "name": "Getting my things done",
+  "icons": [
+    {
+      "src": "/static/assets/images/app-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/assets/images/app-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#e1f0fa",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "share_target": {
+    "action": "/share-target/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
